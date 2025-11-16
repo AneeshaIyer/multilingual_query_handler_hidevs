@@ -47,7 +47,7 @@ def main():
         query = input("Enter query (or 'q' to quit): ").strip()
         
         if query.lower() == 'q': 
-            print("Goodbye!")
+            print("Thank you! Goodbye!")
             break
         if not query:
             continue
