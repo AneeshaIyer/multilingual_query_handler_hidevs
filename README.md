@@ -35,7 +35,7 @@ Everything runs from main.py — no extra files are required.
 # Installation
 1. Clone the repository
 ```
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/AneeshaIyer/multilingual_query_handler_hidevs.git
 cd <your-repo>
 ```
 
