@@ -33,10 +33,10 @@ def translates(query):
         og_response = response
     
     return {
-        'detected_language': lang,
-        'english_translation': translation,
-        'english_response': response,
-        'original_response': og_response
+        'detected': lang,
+        'translation': translation,
+        'response': response,
+        'og_response': og_response
     }
 
 def main():
@@ -54,10 +54,10 @@ def main():
         
         try:
             result = translates(query)
-            print(f"\nDetected Language: {result['detected_language']}")
-            print(f"English Translation: {result['english_translation']}")
-            print(f"\nResponse (English):\n   {result['english_response']}")
-            print(f"\nResponse ({result['detected_language']}):\n   {result['original_response']}\n")
+            print(f"\nDetected Language: {result['detected']}")
+            print(f"English Translation: {result['translation']}")
+            print(f"\nResponse (English):\n   {result['response']}")
+            print(f"\nResponse ({result['detected']}):\n   {result['og_response']}\n")
             print("~" * 60 + "\n")
             
         except Exception as e:
