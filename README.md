@@ -97,7 +97,7 @@ Response (Spanish):
 
 # Demo Video
 
-https://github.com/AneeshaIyer/multilingual_query_handler_hidevs/blob/main/Translator.mp4
+![Demo Run](Translator.gif)
 
 # Contact
 - Name: Aneesha Manjunath Iyer
