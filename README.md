@@ -97,7 +97,6 @@ Response (Spanish):
 
 # Demo Video
 
-![Demo Run](Translator.gif)
 
 # Contact
 - Name: Aneesha Manjunath Iyer
